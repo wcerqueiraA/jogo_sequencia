@@ -14,3 +14,4 @@ G:\Wellington\Videos\Portfolio\JogoSequenciaApp\JogoSequenciaApp\obj\Debug\net7.
 G:\Wellington\Videos\Portfolio\JogoSequenciaApp\JogoSequenciaApp\obj\Debug\net7.0-windows\JogoSequenciaApp.pdb
 G:\Wellington\Videos\Portfolio\JogoSequenciaApp\JogoSequenciaApp\obj\Debug\net7.0-windows\JogoSequenciaApp.genruntimeconfig.cache
 G:\Wellington\Videos\Portfolio\JogoSequenciaApp\JogoSequenciaApp\obj\Debug\net7.0-windows\ref\JogoSequenciaApp.dll
+G:\Wellington\Videos\Portfolio\JogoSequenciaApp\JogoSequenciaApp\obj\Debug\net7.0-windows\JogoSequenciaApp.GameOverForm.resources

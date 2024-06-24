@@ -34,7 +34,6 @@
             btnAmarelo = new Button();
             btnIniciar = new Button();
             lblNivel = new Label();
-            lblPontos = new Label();
             SuspendLayout();
             // 
             // btnVermelho
@@ -91,25 +90,17 @@
             // lblNivel
             // 
             lblNivel.AutoSize = true;
+            lblNivel.Font = new Font("Arial", 20.25F, FontStyle.Bold, GraphicsUnit.Point);
             lblNivel.Location = new Point(191, 54);
             lblNivel.Name = "lblNivel";
-            lblNivel.Size = new Size(0, 15);
+            lblNivel.Size = new Size(0, 32);
             lblNivel.TabIndex = 6;
-            // 
-            // lblPontos
-            // 
-            lblPontos.AutoSize = true;
-            lblPontos.Location = new Point(419, 54);
-            lblPontos.Name = "lblPontos";
-            lblPontos.Size = new Size(0, 15);
-            lblPontos.TabIndex = 7;
             // 
             // MainForm
             // 
             AutoScaleDimensions = new SizeF(7F, 15F);
             AutoScaleMode = AutoScaleMode.Font;
             ClientSize = new Size(800, 777);
-            Controls.Add(lblPontos);
             Controls.Add(lblNivel);
             Controls.Add(btnIniciar);
             Controls.Add(btnAmarelo);
@@ -117,6 +108,7 @@
             Controls.Add(btnVerde);
             Controls.Add(btnVermelho);
             Name = "MainForm";
+            StartPosition = FormStartPosition.CenterScreen;
             Load += MainForm_Load;
             ResumeLayout(false);
             PerformLayout();
@@ -130,6 +122,5 @@
         private Button btnAmarelo;
         private Button btnIniciar;
         private Label lblNivel;
-        private Label lblPontos;
     }
 }

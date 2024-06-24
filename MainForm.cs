@@ -22,6 +22,8 @@ namespace JogoSequenciaApp
         {
             if (!iniciou)
             {
+                btnIniciar.Hide();
+                btnIniciar.Enabled = false;
                 lblNivel.Text = $"Nível {nivel}";
                 GerarSequencia();
                 iniciou = true;
@@ -62,12 +64,16 @@ namespace JogoSequenciaApp
             sequenciaJogo = new List<int>();
             sequenciaUsuario = new List<int>();
             Random random = new Random();
+
+            nivel++;
+            lblNivel.Text = $"Nível {nivel}";
+
             for (int i = 0; i <= 3; i++)
             {
                 sequenciaJogo.Add(random.Next(0, 3));
             }
-            nivel++;
-            lblNivel.Text = $"Nível {nivel}";
+
+            MostrarSequencia();
         }
 
         public void MostrarSequencia()
@@ -130,6 +136,10 @@ namespace JogoSequenciaApp
             }
             else
             {
+                GameOverForm gameOver = new GameOverForm();
+                gameOver.ShowDialog();
+                btnIniciar.Show();
+                btnIniciar.Enabled = true;
 
             }
 
