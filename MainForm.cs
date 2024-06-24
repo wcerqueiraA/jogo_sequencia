@@ -4,6 +4,8 @@ namespace JogoSequenciaApp
     {
         private List<int> padraoJogo = new List<int>();
         private List<int> padraoClicadoUsuario = new List<int>();
+        private bool iniciou = false;
+        private int nivel = 0;
 
 
         public MainForm()
@@ -18,8 +20,13 @@ namespace JogoSequenciaApp
 
         private void btnIniciar_Click(object sender, EventArgs e)
         {
-            GerarSequencia();
-            MostrarSequencia();
+            if (!iniciou)
+            {
+                lblNivel.Text = $"Nível {nivel}";
+                GerarSequencia();
+                iniciou = true;
+
+            }
         }
 
         private void btnVermelho_Click(object sender, EventArgs e)
@@ -53,6 +60,8 @@ namespace JogoSequenciaApp
             {
                 padraoJogo.Add(random.Next(0, 3));
             }
+            nivel++;
+            lblNivel.Text = $"Nível {nivel}";
         }
 
         public void MostrarSequencia()
