@@ -14,7 +14,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("JogoSequenciaApp")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+21cdb5d9487deb45eb608d06a8252d2d7001fe08")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+71df5914662a3e29f71548f75e7ec3a06c0f509d")]
 [assembly: System.Reflection.AssemblyProductAttribute("JogoSequenciaApp")]
 [assembly: System.Reflection.AssemblyTitleAttribute("JogoSequenciaApp")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]

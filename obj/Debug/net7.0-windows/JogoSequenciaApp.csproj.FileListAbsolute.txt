@@ -1,0 +1,16 @@
+G:\Wellington\Videos\Portfolio\JogoSequenciaApp\JogoSequenciaApp\bin\Debug\net7.0-windows\JogoSequenciaApp.exe
+G:\Wellington\Videos\Portfolio\JogoSequenciaApp\JogoSequenciaApp\bin\Debug\net7.0-windows\JogoSequenciaApp.deps.json
+G:\Wellington\Videos\Portfolio\JogoSequenciaApp\JogoSequenciaApp\bin\Debug\net7.0-windows\JogoSequenciaApp.runtimeconfig.json
+G:\Wellington\Videos\Portfolio\JogoSequenciaApp\JogoSequenciaApp\bin\Debug\net7.0-windows\JogoSequenciaApp.dll
+G:\Wellington\Videos\Portfolio\JogoSequenciaApp\JogoSequenciaApp\bin\Debug\net7.0-windows\JogoSequenciaApp.pdb
+G:\Wellington\Videos\Portfolio\JogoSequenciaApp\JogoSequenciaApp\obj\Debug\net7.0-windows\JogoSequenciaApp.MainForm.resources
+G:\Wellington\Videos\Portfolio\JogoSequenciaApp\JogoSequenciaApp\obj\Debug\net7.0-windows\JogoSequenciaApp.csproj.GenerateResource.cache
+G:\Wellington\Videos\Portfolio\JogoSequenciaApp\JogoSequenciaApp\obj\Debug\net7.0-windows\JogoSequenciaApp.GeneratedMSBuildEditorConfig.editorconfig
+G:\Wellington\Videos\Portfolio\JogoSequenciaApp\JogoSequenciaApp\obj\Debug\net7.0-windows\JogoSequenciaApp.AssemblyInfoInputs.cache
+G:\Wellington\Videos\Portfolio\JogoSequenciaApp\JogoSequenciaApp\obj\Debug\net7.0-windows\JogoSequenciaApp.AssemblyInfo.cs
+G:\Wellington\Videos\Portfolio\JogoSequenciaApp\JogoSequenciaApp\obj\Debug\net7.0-windows\JogoSequenciaApp.csproj.CoreCompileInputs.cache
+G:\Wellington\Videos\Portfolio\JogoSequenciaApp\JogoSequenciaApp\obj\Debug\net7.0-windows\JogoSequenciaApp.dll
+G:\Wellington\Videos\Portfolio\JogoSequenciaApp\JogoSequenciaApp\obj\Debug\net7.0-windows\refint\JogoSequenciaApp.dll
+G:\Wellington\Videos\Portfolio\JogoSequenciaApp\JogoSequenciaApp\obj\Debug\net7.0-windows\JogoSequenciaApp.pdb
+G:\Wellington\Videos\Portfolio\JogoSequenciaApp\JogoSequenciaApp\obj\Debug\net7.0-windows\JogoSequenciaApp.genruntimeconfig.cache
+G:\Wellington\Videos\Portfolio\JogoSequenciaApp\JogoSequenciaApp\obj\Debug\net7.0-windows\ref\JogoSequenciaApp.dll
