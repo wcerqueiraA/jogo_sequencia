@@ -3,7 +3,7 @@ namespace JogoSequenciaApp
     public partial class MainForm : Form
     {
         private List<int> padraoJogo = new List<int>();
-        private List<int> padraoClicladoUsuario = new List<int>();
+        private List<int> padraoClicadoUsuario = new List<int>();
 
 
         public MainForm()
@@ -24,22 +24,26 @@ namespace JogoSequenciaApp
 
         private void btnVermelho_Click(object sender, EventArgs e)
         {
-            padraoClicladoUsuario.Add(0);
+            PiscarBotao(0);
+            padraoClicadoUsuario.Add(0);
         }
 
         private void btnVerde_Click(object sender, EventArgs e)
         {
-            padraoClicladoUsuario.Add(1);
+            PiscarBotao(1);
+            padraoClicadoUsuario.Add(1);
         }
 
         private void btnAzul_Click(object sender, EventArgs e)
         {
-            padraoClicladoUsuario.Add(2);
+            PiscarBotao(2);
+            padraoClicadoUsuario.Add(2);
         }
 
         private void btnAmarelo_Click(object sender, EventArgs e)
         {
-            padraoClicladoUsuario.Add(3);
+            PiscarBotao(3);
+            padraoClicadoUsuario.Add(3);
         }
 
         public void GerarSequencia()
