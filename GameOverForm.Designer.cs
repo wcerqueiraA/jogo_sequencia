@@ -33,6 +33,8 @@
             // 
             // msgFim
             // 
+            msgFim.BackColor = SystemColors.Control;
+            msgFim.BorderStyle = BorderStyle.None;
             msgFim.Font = new Font("Arial", 72F, FontStyle.Bold, GraphicsUnit.Point);
             msgFim.Location = new Point(117, 136);
             msgFim.Name = "msgFim";

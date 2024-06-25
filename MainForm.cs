@@ -4,7 +4,7 @@ namespace JogoSequenciaApp
 {
     public partial class MainForm : Form
     {
-        private string caminhoSom = @"G:\Wellington\Videos\Portfolio\JogoSequenciaApp\JogoSequenciaApp\Som\";
+        private string caminhoSom = @"";
         private List<int> sequenciaJogo = new List<int>();
         private List<int> sequenciaUsuario = new List<int>();
         private bool iniciou = false;
