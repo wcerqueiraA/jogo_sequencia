@@ -1,11 +1,15 @@
+using System.Media;
+
 namespace JogoSequenciaApp
 {
     public partial class MainForm : Form
     {
+        private string caminhoSom = @"G:\Wellington\Videos\Portfolio\JogoSequenciaApp\JogoSequenciaApp\Som\";
         private List<int> sequenciaJogo = new List<int>();
         private List<int> sequenciaUsuario = new List<int>();
         private bool iniciou = false;
         private int nivel = 0;
+        private SoundPlayer som;
 
 
         public MainForm()
@@ -15,7 +19,6 @@ namespace JogoSequenciaApp
 
         private void MainForm_Load(object sender, EventArgs e)
         {
-
         }
 
         private void btnIniciar_Click(object sender, EventArgs e)
@@ -70,7 +73,7 @@ namespace JogoSequenciaApp
 
             for (int i = 0; i <= 3; i++)
             {
-                sequenciaJogo.Add(random.Next(0, 3));
+                sequenciaJogo.Add(random.Next(0, 4));
             }
 
             MostrarSequencia();
@@ -92,6 +95,8 @@ namespace JogoSequenciaApp
                     btnVermelho.BackColor = Color.LightCoral;
                     btnVermelho.Refresh();
                     Thread.Sleep(500);
+                    som = new SoundPlayer(caminhoSom + "red.wav");
+                    som.Play();
                     btnVermelho.BackColor = Color.Red;
                     btnVermelho.Refresh();
                     Thread.Sleep(250);
@@ -100,6 +105,8 @@ namespace JogoSequenciaApp
                     btnVerde.BackColor = Color.LightGreen;
                     btnVerde.Refresh();
                     Thread.Sleep(500);
+                    som = new SoundPlayer(caminhoSom + "green.wav");
+                    som.Play();
                     btnVerde.BackColor = Color.Green;
                     btnVerde.Refresh();
                     Thread.Sleep(250);
@@ -108,6 +115,8 @@ namespace JogoSequenciaApp
                     btnAzul.BackColor = Color.LightBlue;
                     btnAzul.Refresh();
                     Thread.Sleep(500);
+                    som = new SoundPlayer(caminhoSom + "blue.wav");
+                    som.Play();
                     btnAzul.BackColor = Color.Blue;
                     btnAzul.Refresh();
                     Thread.Sleep(250);
@@ -116,6 +125,8 @@ namespace JogoSequenciaApp
                     btnAmarelo.BackColor = Color.LightYellow;
                     btnAmarelo.Refresh();
                     Thread.Sleep(500);
+                    som = new SoundPlayer(caminhoSom + "yellow.wav");
+                    som.Play();
                     btnAmarelo.BackColor = Color.Yellow;
                     btnAmarelo.Refresh();
                     Thread.Sleep(250);
@@ -130,17 +141,20 @@ namespace JogoSequenciaApp
             {
                 if (sequenciaJogo.Count == sequenciaUsuario.Count)
                 {
+                    som = new SoundPlayer(caminhoSom + "correct.wav");
+                    som.Play();
                     Thread.Sleep(1000);
                     GerarSequencia();
                 }
             }
             else
             {
+                som = new SoundPlayer(caminhoSom + "wrong.wav");
+                som.Play();
                 GameOverForm gameOver = new GameOverForm();
                 gameOver.ShowDialog();
                 btnIniciar.Show();
                 btnIniciar.Enabled = true;
-
             }
 
         }

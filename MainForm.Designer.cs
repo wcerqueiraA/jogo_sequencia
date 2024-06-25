@@ -109,6 +109,7 @@
             Controls.Add(btnVermelho);
             Name = "MainForm";
             StartPosition = FormStartPosition.CenterScreen;
+            Text = "Jogo da Sequencia";
             Load += MainForm_Load;
             ResumeLayout(false);
             PerformLayout();
