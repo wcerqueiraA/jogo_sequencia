@@ -1,0 +1,103 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "G:\\Wellington\\Videos\\Portfolio\\JogoSequenciaApp\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{567ABB5E-BE48-4882-9FD8-8CAF8D9FDFF3}|JogoSequenciaApp\\JogoSequenciaApp.csproj|g:\\wellington\\videos\\portfolio\\jogosequenciaapp\\jogosequenciaapp\\gameoverform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{567ABB5E-BE48-4882-9FD8-8CAF8D9FDFF3}|JogoSequenciaApp\\JogoSequenciaApp.csproj|solutionrelative:jogosequenciaapp\\gameoverform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{567ABB5E-BE48-4882-9FD8-8CAF8D9FDFF3}|JogoSequenciaApp\\JogoSequenciaApp.csproj|g:\\wellington\\videos\\portfolio\\jogosequenciaapp\\jogosequenciaapp\\gameoverform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{567ABB5E-BE48-4882-9FD8-8CAF8D9FDFF3}|JogoSequenciaApp\\JogoSequenciaApp.csproj|solutionrelative:jogosequenciaapp\\gameoverform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{567ABB5E-BE48-4882-9FD8-8CAF8D9FDFF3}|JogoSequenciaApp\\JogoSequenciaApp.csproj|G:\\Wellington\\Videos\\Portfolio\\JogoSequenciaApp\\jogosequenciaapp\\mainform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{567ABB5E-BE48-4882-9FD8-8CAF8D9FDFF3}|JogoSequenciaApp\\JogoSequenciaApp.csproj|solutionrelative:jogosequenciaapp\\mainform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{567ABB5E-BE48-4882-9FD8-8CAF8D9FDFF3}|JogoSequenciaApp\\JogoSequenciaApp.csproj|g:\\wellington\\videos\\portfolio\\jogosequenciaapp\\jogosequenciaapp\\mainform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{567ABB5E-BE48-4882-9FD8-8CAF8D9FDFF3}|JogoSequenciaApp\\JogoSequenciaApp.csproj|solutionrelative:jogosequenciaapp\\mainform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{567ABB5E-BE48-4882-9FD8-8CAF8D9FDFF3}|JogoSequenciaApp\\JogoSequenciaApp.csproj|g:\\wellington\\videos\\portfolio\\jogosequenciaapp\\jogosequenciaapp\\mainform.designer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{567ABB5E-BE48-4882-9FD8-8CAF8D9FDFF3}|JogoSequenciaApp\\JogoSequenciaApp.csproj|solutionrelative:jogosequenciaapp\\mainform.designer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 2,
+          "Children": [
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{e506b91c-c606-466a-90a9-123d1d1e12b3}"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "MainForm.cs [Design]",
+              "DocumentMoniker": "G:\\Wellington\\Videos\\Portfolio\\JogoSequenciaApp\\JogoSequenciaApp\\MainForm.cs",
+              "RelativeDocumentMoniker": "JogoSequenciaApp\\MainForm.cs",
+              "ToolTip": "G:\\Wellington\\Videos\\Portfolio\\JogoSequenciaApp\\JogoSequenciaApp\\MainForm.cs [Design]",
+              "RelativeToolTip": "JogoSequenciaApp\\MainForm.cs [Design]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-06-24T20:46:48.333Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "GameOverForm.cs [Design]",
+              "DocumentMoniker": "G:\\Wellington\\Videos\\Portfolio\\JogoSequenciaApp\\JogoSequenciaApp\\GameOverForm.cs",
+              "RelativeDocumentMoniker": "JogoSequenciaApp\\GameOverForm.cs",
+              "ToolTip": "G:\\Wellington\\Videos\\Portfolio\\JogoSequenciaApp\\JogoSequenciaApp\\GameOverForm.cs [Design]",
+              "RelativeToolTip": "JogoSequenciaApp\\GameOverForm.cs [Design]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-06-24T22:59:52.704Z",
+              "EditorCaption": " [Design]"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "MainForm.cs",
+              "DocumentMoniker": "G:\\Wellington\\Videos\\Portfolio\\JogoSequenciaApp\\JogoSequenciaApp\\MainForm.cs",
+              "RelativeDocumentMoniker": "JogoSequenciaApp\\MainForm.cs",
+              "ToolTip": "G:\\Wellington\\Videos\\Portfolio\\JogoSequenciaApp\\JogoSequenciaApp\\MainForm.cs",
+              "RelativeToolTip": "JogoSequenciaApp\\MainForm.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAYAAAAmAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-06-24T21:09:22.545Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "GameOverForm.cs",
+              "DocumentMoniker": "G:\\Wellington\\Videos\\Portfolio\\JogoSequenciaApp\\JogoSequenciaApp\\GameOverForm.cs",
+              "RelativeDocumentMoniker": "JogoSequenciaApp\\GameOverForm.cs",
+              "ToolTip": "G:\\Wellington\\Videos\\Portfolio\\JogoSequenciaApp\\JogoSequenciaApp\\GameOverForm.cs",
+              "RelativeToolTip": "JogoSequenciaApp\\GameOverForm.cs",
+              "ViewState": "AQIAAAMAAAAAAAAAAAAIwBUAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-06-24T23:14:47.5Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "MainForm.Designer.cs",
+              "DocumentMoniker": "G:\\Wellington\\Videos\\Portfolio\\JogoSequenciaApp\\JogoSequenciaApp\\MainForm.Designer.cs",
+              "RelativeDocumentMoniker": "JogoSequenciaApp\\MainForm.Designer.cs",
+              "ToolTip": "G:\\Wellington\\Videos\\Portfolio\\JogoSequenciaApp\\JogoSequenciaApp\\MainForm.Designer.cs",
+              "RelativeToolTip": "JogoSequenciaApp\\MainForm.Designer.cs",
+              "ViewState": "AQIAAAsAAAAAAAAAAAAIwHwAAAAWAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-06-24T22:53:31.484Z"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
