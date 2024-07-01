@@ -33,33 +33,6 @@ O Jogo Sequência é uma implementação do clássico jogo de memória onde o jo
     - Som/: Pasta que contém os arquivos de som utilizados pelo jogo.
     - GameOverForm.cs: Formulário de tela de game over exibido quando o jogador comete um erro.
 
-## Componentes Principais
-### MainForm
-
-- A classe MainForm representa a janela principal do jogo onde ocorre a interação com o usuário.
-### Campos
-
-    - private string caminhoSom: Caminho base para os arquivos de som.
-    - private List<int> sequenciaJogo: Lista que armazena a sequência gerada pelo jogo.
-    - private List<int> sequenciaUsuario: Lista que armazena a sequência inserida pelo jogador.
-    - private bool iniciou: Indica se o jogo foi iniciado.
-    - private int nivel: Nível atual do jogo.
-    - private SoundPlayer som: Objeto para reprodução de sons.
-
-### Métodos Principais
-
-    - MainForm(): Construtor da classe.
-    - btnIniciar_Click(object sender, EventArgs e): Evento de clique no botão iniciar jogo.
-    - btnVermelho_Click(object sender, EventArgs e), btnVerde_Click(object sender, EventArgs e), btnAzul_Click(object sender, EventArgs e), btnAmarelo_Click(object sender, EventArgs e): Eventos de clique nos botões de cores.
-    - GerarSequencia(): Gera uma nova sequência de cores.
-    - MostrarSequencia(): Mostra a sequência gerada visualmente.
-    - PiscarBotao(int botao): Realiza o efeito de "piscar" nos botões de cor.
-    - ChecarResposta(int posicaoAtual): Verifica se a sequência do jogador está correta.
-
-### Arquivos de Som
-
-    - Os arquivos de som (red.wav, green.wav, blue.wav, yellow.wav, correct.wav, wrong.wav) localizam-se na pasta Som/ dentro do diretório especificado em caminhoSom.
-
 ## Funcionalidades
 
 - Geração aleatória de sequências de cores.
